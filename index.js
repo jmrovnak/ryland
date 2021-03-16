@@ -55,3 +55,15 @@ document.addEventListener('DOMContentLoaded', function() {
     countdown()
   
   }) 
+
+  var picture = document.querySelector("#picture");
+  var video = document.querySelector("#video");
+  var game = document.querySelector("#game");
+
+  picture.addEventListener("click", function() {
+    console.log("picture test");
+  })
+
+  video.addEventListener('click', function () {
+    console.log("video click test");
+  })
