@@ -6,7 +6,7 @@ body {
     text-align: center;
     color:rgb(0, 60, 255);
     font-size: 48px;
-    
+    font-family: Pangolin;
 }
 
 #par2 {
@@ -19,7 +19,7 @@ body {
 
 .countdownContainer {
     position: absolute;
-    top: 90%;
+    top: 92%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
