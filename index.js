@@ -67,3 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
   video.addEventListener('click', function () {
     console.log("video click test");
   })
+
+  game.addEventListener('click', function () {
+    console.log('clicked');
+  })
