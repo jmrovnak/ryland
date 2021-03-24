@@ -69,5 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
   })
 
   game.addEventListener('click', function () {
+    var gamelist = document.querySelector('#game-list');
+    gamelist.textContent = "Refrigerator Word Game";
     console.log('clicked');
-  })
+    })
