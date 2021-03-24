@@ -7,3 +7,13 @@ body {
     text-align: center;
     font-family: Chango;
 }
+
+#fridge {
+    border: 2px solid pink;
+    height: 1000px;
+}
+
+.row {
+    color: pink;
+    font-family: Chango;
+}
