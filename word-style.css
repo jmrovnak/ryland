@@ -9,14 +9,12 @@ body {
 }
 
 #fridge {
-    border: 2px solid pink;
+    border-radius: 45px;
+    border: 20px solid pink;
     height: 1000px;
 }
 
 .letter {
-   
-    
     color:pink;
     font-family: Chango;
-  
-}
+  }
