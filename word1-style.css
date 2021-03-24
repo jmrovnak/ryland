@@ -17,4 +17,5 @@ body {
 .letter {
     color:pink;
     font-family: Chango;
+    cursor: pointer;
   }
