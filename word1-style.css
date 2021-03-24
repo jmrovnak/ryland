@@ -1,0 +1,20 @@
+body {
+    background-color: blue;
+}
+
+#jumbo {
+    color:yellow;
+    text-align: center;
+    font-family: Chango;
+}
+
+#fridge {
+    border-radius: 45px;
+    border: 20px solid pink;
+    height: 1000px;
+}
+
+.letter {
+    color:pink;
+    font-family: Chango;
+  }
