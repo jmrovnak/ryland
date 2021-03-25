@@ -69,7 +69,13 @@ document.addEventListener('DOMContentLoaded', function() {
   })
 
   game.addEventListener('click', function () {
-    var gamelist = document.querySelector('#game-list');
-    gamelist.textContent = "Refrigerator Word Game";
+     var gamelist = document.querySelector('#game-list');
+    // gamelist.textContent = "Refrigerator Word Game";
     console.log('clicked');
+    var aTag = document.createElement('a');
+    aTag.setAttribute('href', 'word-game1.html');
+    aTag.textContent = 'Refrigerator Word Game';
+    gamelist.appendChild(aTag);
+
+
     })
