@@ -66,6 +66,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   video.addEventListener('click', function () {
     console.log("video click test");
+    
   })
 
   game.addEventListener('click', function () {
@@ -73,9 +74,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // gamelist.textContent = "Refrigerator Word Game";
     console.log('clicked');
     var aTag = document.createElement('a');
-    aTag.setAttribute('href', 'word-game1.html');
-    aTag.textContent = 'Refrigerator Word Game';
+    
+
+    aTag.setAttribute('href', 'word-game1.html',);
+    aTag.textContent = 'Refrigerator Word Game'
     gamelist.appendChild(aTag);
 
+    // aTag.setAttribute('href', 'puzzle.html');
+    // aTag.textContent = 'Puzzle Game';
+    // gamelist.appendChild(aTag);
 
     })
